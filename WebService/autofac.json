@@ -1,0 +1,15 @@
+﻿{
+  "components": [
+    {
+      "type": "Core.Logic.LoggerFunctions, Core",
+      "services": [
+        {
+          "type": "Api.Interfaces.ILoggerFunctions, Api"
+        }
+      ]
+    },
+    {
+      "type": "Core.Configurations.LoggerConfigurator, Core"
+    }
+  ]
+}
